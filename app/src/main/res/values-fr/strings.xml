@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Game2048</string>
+
+    <string name="btn_continue">CONTINUER</string>
+    <string name="btn_retry">REJOUER</string>
+    <string name="btn_reset">RESET</string>
+
+    <string name="labelScore">Score:</string>
+
+    <string name="labelBestScore">Meilleur Score:</string>
+
+    <string name="labelBestTile">Meilleure Tuile:</string>
+
+    <string name="zero">0</string>
+
+    <string name="dialogWarning">Attention</string>
+    <string name="dialogMessage">Vous êtes sur le point de réinitialiser vos statistiques et de redémarrer la partie.</string>
+    <string name="cancelButton">ANNULER</string>
+    <string name="okButton">VALIDER</string>
+    <string name="action_settings">Settings</string>
+</resources>

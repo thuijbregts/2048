@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_normal">#bbada0</color>
+    <color name="button_pressed">#8F7A66</color>
+    <color name="text_color">#faf8ef</color>
+    <color name="dialog_background">#bbada0</color>
+    <color name="stroke">#64504b</color>
+    <color name="text_addition_color">#F67C5F</color>
+    <color name="line_separator">#8F7A66</color>
+</resources>

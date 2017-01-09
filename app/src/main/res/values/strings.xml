@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Game2048</string>
+
+    <string name="btn_continue">CONTINUE</string>
+    <string name="btn_retry">NEW GAME</string>
+    <string name="btn_reset">RESET</string>
+
+    <string name="labelScore">Score:</string>
+
+    <string name="labelBestScore">Best Score:</string>
+
+    <string name="labelBestTile">Highest Tile:</string>
+
+    <string name="zero">0</string>
+
+    <string name="dialogWarning">Warning</string>
+    <string name="dialogMessage">You are about to reset your statistics and restart the game.</string>
+    <string name="cancelButton">CANCEL</string>
+    <string name="okButton">PROCEED</string>
+    <string name="action_settings">Settings</string>
+</resources>

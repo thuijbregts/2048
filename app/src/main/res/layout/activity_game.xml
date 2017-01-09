@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Game"
+    android:background="#EDE0C8"
+    android:id="@+id/view">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelAddition"
+        android:textColor="@color/text_addition_color"
+        android:visibility="visible"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toStartOf="@+id/score" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelScore"
+        android:id="@+id/labelScore"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="85dp"
+        android:textSize="26sp"
+        android:textColor="#776E65"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelBestScore"
+        android:id="@+id/labelBestScore"
+        android:textSize="26sp"
+        android:textColor="#776E65"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/score"
+        android:layout_alignEnd="@+id/labelScore" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textColor="#776E65"
+        android:text="@string/zero"
+        android:id="@+id/score"
+        android:layout_alignBottom="@+id/labelScore"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textColor="#776E65"
+        android:text="@string/zero"
+        android:layout_marginTop="5dp"
+        android:id="@+id/bestScore"
+        android:layout_alignBottom="@+id/labelBestScore"
+        android:layout_below="@+id/score"
+        android:layout_alignEnd="@+id/score"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textColor="#776E65"
+        android:text="@string/zero"
+        android:id="@+id/bestTile"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/bestScore"
+        android:layout_alignEnd="@+id/bestScore" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:text="@string/btn_retry"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:id="@+id/buttonRetry"
+        android:background="@drawable/regular_button"
+        android:textColor="@color/text_color"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelLost"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:textColor="#776E65"
+        android:layout_above="@+id/buttonRetry"
+        android:layout_marginBottom="12dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:text="@string/btn_continue"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:id="@+id/buttonContinue"
+        android:background="@drawable/regular_button"
+        android:textColor="@color/text_color"
+        android:visibility="gone"
+        android:enabled="false"
+        android:layout_above="@+id/buttonRetry"
+        android:layout_alignStart="@+id/buttonRetry"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelBestTile"
+        android:id="@+id/labelBestTile"
+        android:textSize="26sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#776E65"
+        android:layout_below="@+id/labelBestScore"
+        android:layout_alignEnd="@+id/labelScore" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_reset"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/buttonReset"
+        android:background="@drawable/regular_button"
+        android:textColor="@color/text_color"
+        android:width="50dp"
+        android:height="30dp"
+        android:layout_alignBottom="@+id/buttonRetry"
+        android:layout_toRightOf="@id/buttonRetry"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="1dp"/>
+
+
+</RelativeLayout>
